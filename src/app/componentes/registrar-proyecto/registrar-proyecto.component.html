@@ -1,0 +1,21 @@
+<div>
+    <h1>
+        Registro Proyecto
+    </h1>
+</div>
+<div>
+    <form (submit)="registrar_proyecto()">
+        <div class="form-group">
+            <label>Nombre Proyecto</label>
+            <input class="form-control" type="text" name="nombreProyecto" [(ngModel)]="nombreProyecto">
+        </div>
+        <div class="form-group">
+            <label>Identificación Proyecto</label>
+            <input class="form-control" type="text" name="idProyecto" [(ngModel)]="idProyecto">
+        </div>
+        <input type="submit" name="accion" value="Registrar"/>
+    </form>
+</div>
+<div>
+    <button type="button" class="btn btn-primary" (click)="regresar()">REGRESARSE</button>
+</div>

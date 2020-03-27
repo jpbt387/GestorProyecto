@@ -1,0 +1,39 @@
+<div>
+    <h1>
+        Registro Estudiante
+    </h1>
+</div>
+<div>
+    <form (submit)="registrarEstudiante()">
+        <div class="form-group">
+            <label>Nombres</label>
+            <input class="form-control" type="text" name="nombres" [(ngModel)]="nombres">
+        </div>
+        <div class="form-group">
+            <label>Apellidos</label>
+            <input class="form-control" type="text" name="apellidos" [(ngModel)]="apellidos">
+        </div>
+        <div class="form-group">
+            <label>Documento de Identificación</label>
+            <input class="form-control" type="text" name="idEstudiante" [(ngModel)] ="idEstudiante">
+        </div>
+        <div class="form-group">
+            <label>Correo Institucional</label>
+            <input class="form-control" type="text" name="correo" [(ngModel)] ="correo">
+        </div>
+        <div class="form-group">
+            <label>Teléfono Celular</label>
+            <input class="form-control" type="text" name="telefono" [(ngModel)]="telefono">
+        </div>
+        <div class="form-group">
+            <label>Identificación Proyecto</label>
+            <input class="form-control" type="text" name="idProyecto" [(ngModel)]="idProyecto">
+            <button>verifcar</button>
+        </div>
+        <div class="form-group">
+            <label>Identificación Docente</label>
+            <input class="form-control" type="text" name="idProfesorEncardado" [(ngModel)]="idProfesorEncardado">
+        </div>
+        <input type="submit" name="accion" value="Registrar"/>
+    </form>
+</div>

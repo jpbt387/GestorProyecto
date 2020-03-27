@@ -1,0 +1,29 @@
+<div>
+    <h1>
+        Autenticación Estudiantes
+    </h1>
+</div>
+<div>
+    <form>
+        <div>
+            <div>
+                <label>NOMBRE DE USUARIO</label>
+            </div>
+            <div>
+                <input type="text" placeholder="usuario" name="usuario" [(ngModel)]="usuario">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label>CONTRASEÑA</label>
+            </div>
+            <div>
+                <input type="text" placeholder="contraseña" name="contrasenha" [(ngModel)]="contrasenha">
+            </div>
+        </div>
+        <input type="submit" name="ingresar" value="INGRESAR">
+    </form>
+</div>
+<div>
+    <button type="button" class="btn btn-primary" (click)="regresar()">REGRESARSE</button>
+</div>
