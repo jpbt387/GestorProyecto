@@ -46,4 +46,12 @@ export class VistaDocentesComponent implements OnInit {
       console.log(this.uploadedFiles[0].type);
       console.log(this.uploadedFiles[0].name);
     }
+
+    registrarEstudiante()
+    {
+      this.enrutador.navigate(['registroEstudiante']);
+    }
+    registrarProyecto(){
+      this.enrutador.navigate(['egistroProyecto']);
+    }
   }

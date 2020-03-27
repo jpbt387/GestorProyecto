@@ -28,7 +28,8 @@ const rutasComponentes: Routes = [
   {path: 'ingresoDocentePlataforma', component:IngresoDocentePlataformaComponent},
   {path: 'ingresoEstudiantePlataforma', component: IngresoEstudiantesPlataformaComponent},
   {path: 'filtroIngreso',component:FiltroComponent},
-  {path: 'vistaDocente',component:VistaDocenteComponent}
+  {path: 'vistaDocente',component:VistaDocentesComponent}
+
 ];
 
 @NgModule({
